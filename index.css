@@ -1,0 +1,246 @@
+/*elements */
+
+html {
+    background-color: lightblue;
+    font: Arial;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+th {
+    width: 20%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgb(2, 50, 70);
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 40px;
+  }
+
+
+/*classes */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  
+.signin{
+    grid-column: 1/2;
+    grid-row: 1;
+    border: 1px solid black;
+    background: rgb(2, 50, 70);
+    border-radius: 10px;
+}
+
+.signin h2{
+    text-align: center;
+    vertical-align: middle;
+}
+.header {
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+
+.nav {
+    grid-column: 1/5;
+    grid-row: 2;
+    height:50px;
+}
+
+.three {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    justify-content: center;
+    border: solid black 1px;
+}
+
+.four {
+    grid-column: 2/4;
+    grid-row: 3;
+    justify-content: right;
+}
+
+.five {
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+.six {
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+.lefthalf {
+    grid-column: 1/3;
+    grid-row: 3;
+    justify-content: center;
+}
+  
+.righthalf {
+    grid-column: 3/5;
+    grid-row: 3;
+    justify-content: right;
+}
+.apt1pic {
+    float: left;
+    padding-left: 10px;
+}
+
+.apt2pic {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.apt {
+    text-align: center;
+    font-size: larger;
+    text-decoration: bold;
+}
+
+.apt2 {
+    grid-column: 2/4;
+    grid-row: 4;
+    background-color:rgb(2, 50, 70);
+    border-radius: 10px;
+    color: white;
+}
+
+
+.faqs {
+        margin-bottom: 80px;
+      }
+      
+.faqs ul {
+        margin-top: 30px;
+        list-style-type: none;
+      }
+      
+.faqs li {
+        width: 300px;
+        
+      }
+      
+.faqs li:nth-child(odd) {
+        font-family: "Roboto", "Merriweather", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 48px;
+        margin: 0;
+        padding: 0 1em;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-bottom: 2px solid #cdcdcd;
+        background: #e5e5e5;
+      }
+      
+.faqs li:nth-child(even) {
+        line-height: 50px;
+        margin: 0;
+        padding-left: 1em;
+      }
+      
+.faqs li.active {
+        background-color: rgb(2, 50, 70);
+        color: white;
+      }
+
+
+.services {
+        margin-bottom: 80px;
+      }
+      
+.services ul {
+        margin-top: 30px;
+        list-style-type: none;
+      }
+      
+.services li {
+        width: 100%;
+        
+      }
+      
+.services li:nth-child(odd) {
+        font-family: "Roboto", "Merriweather", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 48px;
+        margin: 0;
+        padding: 0 1em;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-bottom: 2px solid #cdcdcd;
+        background: #e5e5e5;
+      }
+      
+.services li:nth-child(even) {
+        line-height: 50px;
+        margin: 0;
+        padding-left: 1em;
+      }
+      
+.services li.active {
+        background-color: rgb(2, 50, 70);
+        color: white;
+      }
+
+.facebook img {
+    vertical-align: middle;
+}
+
+.fb-page {
+    padding: 20px;
+}
+
+/* ID */
+#header-image {
+    width: 100%;
+    height: 900px;
+}
+
+#login form{
+    text-align: center;
+}
+
+#contactlist th{
+    color: white;
+}
+#signup form {
+    text-align: center;
+}
+
+#apt1 {
+    background-color:rgb(2, 50, 70);
+    border-radius: 10px;
+    color: white;
+}
